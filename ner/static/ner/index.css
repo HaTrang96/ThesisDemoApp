@@ -1,10 +1,84 @@
-.div1 {
-    height: 200px;
-    width: 100%;
-    background: red;
-    border: 2px solid green;
+.text {
+    height: 100px;
+    width: -webkit-fill-available;
 }
-.div2 {
+
+#level1 {
     background: yellow;
+}
+
+.result {
     border: 1px solid brown;
+    height: 100px;
+}
+
+.line1 {
+    height: 2px;
+    width: 50px;
+    background: black;
+    transform: rotate(-45deg) translate(70px,66px);
+    margin: 19px 0px 13px;
+}
+
+#level2_1 {
+    margin: 0px 0px 0px 96px;
+    background: violet;
+}
+
+.line2 {
+    height: 2px;
+    width: 34px;
+    background: black;
+    transform: rotate(-90deg) translate(3px,142px);
+    margin: -15px 0px 13px;
+}
+
+#level2_2 {
+    background: tomato;
+    margin: 0px 0px 0px 33px;
+}
+
+.line3 {
+    height: 2px;
+    width: 40px;
+    background: black;
+    transform: rotate(-122deg) translate(-101px,168px);
+    margin: -15px 0px 13px;
+}
+
+#level2_3 {
+    background: turquoise;
+    margin: 0px 0px 0px 19px;
+}
+
+.description {
+    height: 110px;
+    width: -webkit-fill-available; 
+    border: 1px solid burlywood; 
+    margin-top: 15px;  
+}
+
+.description span {
+    margin-left: 30px;
+}
+
+.description div {
+    height: 15px;
+    width: 20px;
+    margin: 10px;
+}
+#block1 {
+    background: yellow;
+}
+
+#block2 {
+    background: violet;
+}
+
+#block3 {
+    background: tomato;
+}
+
+#block4 {
+    background: turquoise;
 }

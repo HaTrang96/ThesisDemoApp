@@ -5,13 +5,27 @@
     <link type="text/css" href="{% static 'ner/index.css' %}" rel="stylesheet" />
   </head>
   <body bgcolor=white>
+    <form>
+      <textarea name="input" autofocus class="text"></textarea>
+      </br>
+      <input type="submit" name="submit" style="background: rgb(122, 191, 223); height: 30px; margin-top: 5px;"/>
+    </form>
 
-    <div class="div1">
-        Thuan
+    <div class="result">
+      <p>Gửi cho tôi đến CG <span id="level1">trc 2h ngày mai</span></p>
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+      <span id="level2_1">trc</span>
+      <span id="level2_2">2h</span>
+      <span id="level2_3">ngày mai</span>
     </div>
-    <div class="div2">
-        Trang
+    
+    <div class="description">
+      <div id="block1"><span>date_time</span></div>
+      <div id="block2"><span>prefix</span></div>
+      <div id="block3"><span>time</span></div>
+      <div id="block4"><span>date</span></div>
     </div>
-
   </body>
 </html>
